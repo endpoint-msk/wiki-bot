@@ -6,5 +6,3 @@
 cp .env.example .env
 docker compose up -d --build
 ```
-
-Вебхук в Outline: `http://endpoint-wiki-bot:8080/webhook`, события `revisions.create`, `documents.*` кроме create/update/title_change и прав, `collections` целиком.
